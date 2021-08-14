@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button,
+details {
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(255, 254, 251, 0.8);
+}
+
+main .container {
+  max-width: 1440px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 32px;
+}
+
+main .container .header h1 {
+  font-size: 28px;
+}
+
+main .container .header details summary {
+  color: #B4B4B4;
+  font-size: 12px;
+  display: block;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px 27.5px 11px 16px;
+  position: relative;
+}
+
+main .container .header details summary::after {
+  content: '';
+  position: absolute;
+  background: url(./img/arrow.png) center center/cover no-repeat;
+  width: 8px;
+  height: 8px;
+  right: 15px;
+  top: 14px;
+}
+
+main .container .header details summary summary::-webkit-details-marker {
+  display: none;
+}
+
+main .container .header details summary summary::-moz-details-marker {
+  display: none;
+}
+
+main .container .header details summary summary::-ms-details-marker {
+  display: none;
+}
+
+main .container .header details summary summary::-o-details-marker {
+  display: none;
+}
+
+main .container .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 332px 1fr;
+      grid-template-columns: 332px 1fr;
+  padding: 0 32px;
+}
+
+main .container .content aside {
+  height: 440px;
+  width: 332px;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  padding: 0 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .container .content aside form .input-form {
+  margin-bottom: 16px;
+}
+
+main .container .content aside form input {
+  width: 100%;
+  font-size: 12px;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  padding: 10px 0 11px 16px;
+  outline: none;
+}
+
+main .container .content aside form input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+main .container .content aside form label {
+  font-size: 10px;
+  color: #49485E;
+  margin-bottom: 4px;
+}
+
+main .container .content aside form textarea {
+  padding: 10px 0 0 16px;
+  width: 100%;
+  height: 108px;
+  outline: none;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  resize: none;
+}
+
+main .container .content aside form input::-webkit-outer-spin-button,
+main .container .content aside form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+main .container .content aside form input::-webkit-input-placeholder,
+main .container .content aside form textarea::-webkit-input-placeholder {
+  color: #B4B4B4;
+}
+
+main .container .content aside form input:-ms-input-placeholder,
+main .container .content aside form textarea:-ms-input-placeholder {
+  color: #B4B4B4;
+}
+
+main .container .content aside form input::-ms-input-placeholder,
+main .container .content aside form textarea::-ms-input-placeholder {
+  color: #B4B4B4;
+}
+
+main .container .content aside form input::placeholder,
+main .container .content aside form textarea::placeholder {
+  color: #B4B4B4;
+}
+
+main .container .content aside .add-card {
+  width: 100%;
+  border: none;
+  background: #EEEEEE;
+  border-radius: 10px;
+  padding: 10px 0 11px 0;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #B4B4B4;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+main .container .content aside .add-card:hover {
+  background-color: #7BAE73;
+  color: white;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+main .container .content aside .add-card:active {
+  background-color: #80a9d3;
+  color: white;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+main .container section {
+  max-width: 100%;
+  margin-left: 16px;
+}
+
+main .container section .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+}
+
+main .container section .cards .card-item {
+  width: 332px;
+  background: #FFFEFB;
+  -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  position: relative;
+}
+
+main .container section .cards .card-item .delete {
+  display: none;
+  background: #FF8484;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  padding: 8px 9.5px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+main .container section .cards .card-item .delete img {
+  display: block;
+}
+
+main .container section .cards .card-item .text-content {
+  padding: 0 16px;
+}
+
+main .container section .cards .card-item .text-content h2 {
+  margin: 0;
+  margin: 12px 0 16px 0;
+  font-size: 20px;
+}
+
+main .container section .cards .card-item .text-content p {
+  margin: 0;
+}
+
+main .container section .cards .card-item .text-content .price {
+  margin: 0;
+  padding: 32px 0 24px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+main .container section .cards .card-item:hover {
+  cursor: pointer;
+}
+
+main .container section .cards .card-item:hover .delete {
+  display: block;
+}
+
+main .container section .cards .card-item:nth-child(3n) {
+  margin-right: 0;
+}
+/*# sourceMappingURL=style.css.map */

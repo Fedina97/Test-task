@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>IdaProject</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+                <h1>Добавление товара</h1>
+                <div class="select">
+                    <details>
+                        <summary>По умолчанию</summary>
+                    </details>
+                </div>
+            </div>
+            <div class="content">
+                <aside>
+                    <form action="#">
+                        <div class="input-group">
+                            <div class="input-form">
+                                <label for="name-field">Наименование товара
+                                    <span><img src="./img/circle.svg" alt="required"></span>
+                                </label>
+                                <input required id="name-field" type="text" placeholder="Введите наименование товара">
+                            </div>
+                            <div class="input-form">
+                                <label for="desc-field">Описание товара</label>
+                                <textarea name="description" id="desc-field"
+                                    placeholder="Введите описание товара"></textarea>
+                            </div>
+                            <div class="input-form">
+                                <label for="url-field">Ссылка на изображение товара
+                                    <span><img src="./img/circle.svg" alt="required"></span>
+                                </label>
+                                <input required id="url-field" name="url" type="url" placeholder="Введите ссылку">
+                            </div>
+                            <div class="input-form">
+                                <label for="price-field">Цена товара
+                                    <span><img src="./img/circle.svg" alt="required"></span>
+                                </label>
+                                <input required type="number" name="price" id="price-field" placeholder="Введите цену">
+                            </div>
+                            <button class="add-card" type="submit">Добавить товар</button>
+                        </div>
+                    </form>
+                </aside>
+                <section>
+                    <div class="cards">
+                        <div class="card-item">
+                            <button type="button" class="delete">
+                                <img class="delete-img" src="./img/delete.svg" alt="">
+                            </button>
+                            <img src="./img/photo.png" alt="">
+                            <div class="text-content">
+                                <h2>Наименование товара</h2>
+                                <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное
+                                    описание
+                                    товара в несколько строк</p>
+                                <p class="price">10 000 <span>руб.</span></p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <button type="button" class="delete">
+                                <img src="./img/delete.svg" alt="">
+                            </button>
+                            <img src="./img/photo.png" alt="">
+                            <div class="text-content">
+                                <h2>Наименование товара</h2>
+                                <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное
+                                    описание
+                                    товара в несколько строк</p>
+                                <p class="price">10 000 <span>руб.</span></p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <button type="button" class="delete">
+                                <img src="./img/delete.svg" alt="">
+                            </button>
+                            <img src="./img/photo.png" alt="">
+                            <div class="text-content">
+                                <h2>Наименование товара</h2>
+                                <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное
+                                    описание
+                                    товара в несколько строк</p>
+                                <p class="price">10 000 <span>руб.</span></p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <button type="button" class="delete">
+                                <img src="./img/delete.svg" alt="">
+                            </button>
+                            <img src="./img/photo.png" alt="">
+                            <div class="text-content">
+                                <h2>Наименование товара</h2>
+                                <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное
+                                    описание
+                                    товара в несколько строк</p>
+                                <p class="price">10 000 <span>руб.</span></p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <button type="button" class="delete">
+                                <img src="./img/delete.svg" alt="">
+                            </button>
+                            <img src="./img/photo.png" alt="">
+                            <div class="text-content">
+                                <h2>Наименование товара</h2>
+                                <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное
+                                    описание
+                                    товара в несколько строк</p>
+                                <p class="price">10 000 <span>руб.</span></p>
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <button type="button" class="delete">
+                                <img src="./img/delete.svg" alt="">
+                            </button>
+                            <img src="./img/photo.png" alt="">
+                            <div class="text-content">
+                                <h2>Наименование товара</h2>
+                                <p>Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное
+                                    описание
+                                    товара в несколько строк</p>
+                                <p class="price">10 000 <span>руб.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
